@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+   font-family: Arial, Helvetica, sans-serif;}
+
+header {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+section {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.419);
+}
+
+div#inicial {
+    text-align: center;
+    padding: 10px;
+} 
+
+footer {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+p#copy {
+    color: white;
+}

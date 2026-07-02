@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(90, 178, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: white;
+    width: 470px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 15px;
+}
+
+#inputnumero {
+    width: 25%;
+}
+
+#select {
+    width: 150px;
+}
+
+#finalizar {
+    display: inline-block;
+    margin: 0px 15px ;
+}
+
+#limpar {
+    display: inline-block;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

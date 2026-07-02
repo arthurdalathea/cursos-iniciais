@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #04c104,rgb(165, 255, 135));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    width: 470px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.446);
+}
+
+input[type="button"] {
+    transform: scale(1.2);
+    margin-left: 20px;
+}
+
+input[type="button"]:hover {
+    color: #04c104;
+}
+                            

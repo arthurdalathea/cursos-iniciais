@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+:root {
+    --cor0: white;
+    --cor1: #daffea;
+    --cor2: #84E1AD;
+    --cor3: #39CD7B;
+    --cor4: #84e1ac89;
+    --cor5: #288552;
+    --cor6: #185132;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+}
+
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor6));
+    color: var(--cor0); 
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    width: 100%;
+    min-width: 300px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.59); 
+}
+
+#tituloPrincipal {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 1px 7px black;
+}
+
+header > p {
+    margin: auto;
+    padding-bottom: 50px;
+    max-width: 400px;
+    line-height: 1.5rem;
+}
+
+/* NAV */
+
+nav {
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor0);
+    margin-left: 20px;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+.destaque {
+    color: var(--cor5);
+    font-weight: bolder;
+}
+
+.linkExterno {
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.linkExterno:hover {
+    text-decoration: underline;
+}
+
+.linkExterno::after {
+    content: "\00A0\1F517";
+}
+
+main {
+    background-color: var(--cor0);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.59);
+}
+
+main > h2 {
+    font-family: 'idroid', sans-serif;
+    font-size: 1.7rem;
+    color: var(--cor5);
+}
+
+main > p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+main > h3 {
+    font-family: 'idroid', sans-serif;
+    color: var(--cor5);
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor0));
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.imagemPequena {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Video */
+
+#lugarVideo {
+    background-color: var(--cor6);
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+#videoAndroid {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* Extra */
+
+#extra {
+   background-color: var(--cor1);
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 20px;
+   position: relative;
+}
+
+#tituloExtra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: var(--cor0);
+    border-radius: 20px 20px 0 0;
+    background-color: var(--cor5);
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+#pMargem {
+    margin-top: 50px;
+} 
+
+
+#extra > p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.listaExtra > li::marker {
+    content: "➔ ";
+    color: var(--cor5);
+}
+
+div ul {
+    columns: 2;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--cor6);
+    color: var(--cor0);
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5rem;
+}
