@@ -36,6 +36,7 @@ button {
 .icone:hover {
     transform: scale(1.1);
     border: 2px solid white;
+    box-sizing: border-box;
 }
 
 div#telefone {
